@@ -33,7 +33,7 @@ engine:
     - charset_filter@gb2312  
     - simplifier
     - "reverse_lookup_filter@ci_reverse_lookup"
-    - "simplifier@98wb_spelling"
+    - "simplifier@86wb_spelling"
     - "simplifier@u_pinyin"
     - uniquifier
   processors:
@@ -133,9 +133,9 @@ simplifier:
   option_name: zh_trad
 
 
-98wb_spelling:
-  opencc_config: 98wb_spelling.json
-  option_name: 98wb_spelling
+86wb_spelling:
+  opencc_config: 86wb_spelling.json
+  option_name: 86wb_spelling
   show_in_comment: true
   comment_format:
     - "xform/☯/ · /" 
@@ -196,7 +196,7 @@ key_binder:
     - {accept: "Control+Shift+4", toggle: zh_trad, when: always}
     - {accept: "Control+Shift+dollar", toggle: zh_trad, when: always}
     - {accept: "Control+Shift+F", toggle: zh_trad, when: always}
-    - {accept: "Control+Shift+H", toggle: 98wb_spelling, when: always}
+    - {accept: "Control+Shift+H", toggle: 86wb_spelling, when: always}
     - {accept: "Control+Shift+U", toggle: gb2312, when: always} 
 
 punctuator:
