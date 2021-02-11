@@ -19,7 +19,7 @@ switches:
   - name: zh_trad
     reset: 0
     states: [ 简,繁 ]
-  - name: 98wb_spelling
+  - name: 86wb_spelling
     reset: 1    
     states: [ 隐,显 ]    
   - name: u_pinyin
